@@ -1,0 +1,57 @@
+/* Media queries */
+
+/* Responsive for 768px */
+
+@media only screen and (max-width: 768px) {
+    .menu-area .menu ul li {
+        display: block;
+    }
+    .intro-area h1 {
+        text-align: center;
+        font-size: 18px;
+        letter-spacing: 0;
+        line-height: 0;
+    }
+    .get-started .text-part {
+        width: 100%;
+        margin: auto;
+        height: auto;
+    }
+    .phone-area {
+        width: 100%;
+        margin: auto;
+        padding: 50px;
+    }
+    .design {
+        width: 100%;
+        margin: auto;
+        padding: 50px;
+    }
+    .slider {
+        margin: 0;
+        padding: 50px;
+    }
+    .community-area .arrow {
+        display: none;
+    }
+    .community-area .col-1-3 {
+        width: 100%;
+        margin: 10px;
+    }
+    .subscribe-area {
+        padding: 250px 0;
+    }
+    .subscribe-area .input-area h1 {
+        font-size: 16px;
+        line-height: 0;
+        letter-spacing: 0;
+    }
+    .download-area .download-text {
+        text-align: center;
+        width: 100%;
+        margin: auto;
+    }
+    .store {
+        margin: 20px 0;
+    }
+}
